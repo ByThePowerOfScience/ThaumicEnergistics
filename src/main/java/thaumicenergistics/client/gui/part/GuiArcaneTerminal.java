@@ -8,6 +8,7 @@ import appeng.api.util.IConfigManager;
 import appeng.client.gui.widgets.GuiImgButton;
 import appeng.client.gui.widgets.GuiTabButton;
 import appeng.core.localization.GuiText;
+import appeng.core.sync.GuiHostType;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.resources.I18n;
@@ -88,7 +89,7 @@ public class GuiArcaneTerminal extends GuiAbstractTerminal<IAEItemStack, IItemSt
             this.updateScroll();
         }
     }
-
+    
     @Override
     public void initGui() {
         this.xSize = 201;

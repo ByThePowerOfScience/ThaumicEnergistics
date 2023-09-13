@@ -1,5 +1,6 @@
 package thaumicenergistics.client.gui;
 
+import appeng.core.sync.GuiHostType;
 import net.minecraft.client.gui.GuiTextField;
 import org.lwjgl.opengl.GL11;
 

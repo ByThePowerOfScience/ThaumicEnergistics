@@ -1,5 +1,6 @@
 package thaumicenergistics.client.gui.block;
 
+import appeng.core.sync.GuiHostType;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.util.ResourceLocation;
@@ -73,7 +74,9 @@ public class GuiArcaneAssembler extends GuiBase {
                 this.fontRenderer.drawString(ThEApi.instance().lang().guiOutOfVis().getLocalizedKey(), 115, 3, Color.RED.getRGB());
         }
     }
-
+    
+    
+    
     @Override
     protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY) {
         if (this.inv.getStackInSlot(0).isEmpty()) {
